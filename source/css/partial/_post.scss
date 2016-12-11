@@ -118,13 +118,15 @@ $content-table-bg: lighten(#f8f5ec, 30%) !default;
       }
 
       > ul {
-        padding: 0;
-        list-style: $content-list-style;
+          padding: 0;
+	  padding-left: 30px;
+          list-style: $content-list-style;
       }
 
       > ol {
-        padding: 0;
-        list-style: $content-list-style decimal;
+          padding: 0;
+	  padding-left: 30px;
+          list-style: $content-list-style decimal;
       }
 
       .table-responsive {
